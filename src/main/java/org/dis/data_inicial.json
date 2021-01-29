@@ -1,0 +1,73 @@
+{"videoteca": {
+    "ubicacion": "Alcobendas",
+    "peliculas": {"pelicula": [
+        {
+            "genero": "Acción",
+            "duracion": 108,
+            "titulo": "Terminator",
+            "agno": 1984,
+            "enlace": "https://www.imdb.com/title/tt0088247",
+            "reparto": {"actor": [
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Arnold_Schwarzenegger",
+                    "nombre": "Arnold Schwarzenegger"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Linda_Hamilton",
+                    "nombre": "Linda Hamilton"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Michael_Biehn",
+                    "nombre": "Michael Biehn"
+                }
+            ]},
+            "sinopsis": "Los Ángeles, año 2029. Las máquinas dominan el mundo. Los rebeldes que luchan contra ellas tienen como líder a John Connor, un hombre que nació en los años ochenta. Para acabar con la rebelión, las máquinas deciden enviar al pasado a un robot -Terminator- cuya misión será eliminar a Sarah Connor, la madre de John, e impedir así su nacimiento. (FILMAFFINITY)"
+        },
+        {
+            "genero": "Histórico",
+            "duracion": 177,
+            "titulo": "Braveheart",
+            "agno": 1995,
+            "enlace": "https://www.imdb.com/title/tt0112573",
+            "reparto": {"actor": [
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Mel_Gibson",
+                    "nombre": "Mel Gibson"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Sophie_Marceau",
+                    "nombre": "Sophie Marceau"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Ian_Bannen",
+                    "nombre": "Ian Bannen"
+                }
+            ]},
+            "sinopsis": "En el siglo XIV, los escoceses viven oprimidos por los gravosos tributos y las injustas leyes impuestas por los ingleses. William Wallace es un joven escocés que regresa a su tierra despues de muchos años de ausencia. Siendo un niño, toda su familia fue asesinada por los ingleses, razón por la cual se fue a vivir lejos con un tío suyo. (FILMAFFINITY)"
+        },
+        {
+            "genero": "Acción",
+            "duracion": 115,
+            "titulo": "Indiana Jones en busca del arca perdida",
+            "agno": 1981,
+            "enlace": "https://www.imdb.com/title/tt0082971",
+            "reparto": {"actor": [
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Harrison_Ford",
+                    "nombre": "Harrison Ford"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Karen_Allen",
+                    "nombre": "Karen Allen"
+                },
+                {
+                    "enlaceWikipedia": "https://es.wikipedia.org/wiki/Paul_Freeman",
+                    "nombre": "Paul Freeman"
+                }
+            ]},
+            "sinopsis": "Año 1936. Indiana Jones es un profesor de arqueología, dispuesto a correr peligrosas aventuras con tal de conseguir valiosas reliquias históricas. Después de una infructuosa misión en Sudamérica, el gobierno estadounidense le encarga la búsqueda del Arca de la Alianza, donde se conservan las Tablas de la Ley que Dios entregó a Moisés. Según la leyenda, quien las posea tendrá un poder absoluto, razón por la cual también la buscan los nazis. (FILMAFFINITY)"
+        }
+    ]},
+    "fechaActualizacion": "01/01/2020",
+    "nombre": "Videoteca 1"
+}}
