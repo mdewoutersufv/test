@@ -102,7 +102,7 @@
             </executions>
         </plugin>
 		</plugins>
-		<profiles>
+		
 		<profile>
   <id>npm</id>
   <build>
@@ -155,7 +155,7 @@
                 </plugin>
       </plugins>
   </build>
-</profile></profiles>
+</profile>
 		</build>
 
 </project>
