@@ -103,59 +103,7 @@
         </plugin>
 		</plugins>
 		
-		<profile>
-  <id>npm</id>
-  <build>
-      <plugins>
-       <plugin>
-          <groupId>com.github.eirslett</groupId>
-          <artifactId>frontend-maven-plugin</artifactId>
-          <!-- Use the latest released version:
-          https://repo1.maven.org/maven2/com/github/eirslett/frontend-maven-plugin/ -->
-          <version>1.9.1</version>
-          <executions>
-              <execution>
-                  <id>install node and npm</id>
-                  <goals>
-                      <goal>install-node-and-npm</goal>
-                  </goals>
-                  <!-- optional: default phase is "generate-resources" -->
-                  <phase>generate-resources</phase>
-              </execution>
-          </executions>
-          <configuration>
-              <nodeVersion>v12.13.0</nodeVersion>
-          </configuration>
-          </plugin>
-		  
-		    <plugin>
-                    <artifactId>maven-clean-plugin</artifactId>
-                    <version>2.5</version>
-                    <executions>
-                        <execution>
-                            <id>clean-jar-artifacts</id>
-                            <phase>install</phase>
-                            <goals>
-                                <goal>clean</goal>
-                            </goals>
-                            <configuration>
-                                <excludeDefaultDirectories>true</excludeDefaultDirectories>
-                                <filesets>
-                                    <fileset>
-                                        <directory>target</directory>
-                                        <excludes>
-                                            <exclude>*.war</exclude>
-                                            <exclude>dependency/*.jar</exclude>
-                                        </excludes>
-                                    </fileset>
-                                </filesets>
-                            </configuration>
-                        </execution>
-                    </executions>
-                </plugin>
-      </plugins>
-  </build>
-</profile>
+  
 		</build>
 
 </project>
